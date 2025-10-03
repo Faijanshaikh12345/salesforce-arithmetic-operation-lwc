@@ -1,0 +1,20 @@
+<template>
+    <lightning-card title="Arithmetic Operation" icon-name="standard:account">
+    <div class="slds-p-around_medium">
+        <lightning-input type="number" label="Enter First Number" name="num1" onchange={handleChange}  class="slds-m-bottom_small"></lightning-input>
+        <lightning-input type="number" label="Enter Second Number" name="num2" onchange={handleChange}></lightning-input>
+    </div>
+
+    <div class="slds-p-around_medium ">
+        <lightning-button label="Add" onclick={add}></lightning-button>
+        <lightning-button label="Sub" onclick={sub} class="slds-m-left_small"></lightning-button>
+        <lightning-button label="Mul" onclick={mul} class="slds-m-left_small"></lightning-button>
+        <lightning-button label="Div" onclick={div} class="slds-m-left_small"></lightning-button>
+    </div>
+
+     <div class="slds-p-around_medium">
+        <p><strong>Result: </strong>{result}</p>
+    </div>
+    </lightning-card>
+
+</template>
