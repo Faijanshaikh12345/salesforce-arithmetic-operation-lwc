@@ -1,0 +1,9 @@
+Arithmetic Operation LWC
+
+This is a simple Lightning Web Component (LWC) to perform arithmetic operations: addition, subtraction, multiplication, and division.
+
+## Features
+- Takes two numeric inputs.
+- Performs Add, Subtract, Multiply, Divide operations.
+- Handles division by zero.
+- Uses SLDS for styling.
